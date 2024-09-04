@@ -1,28 +1,26 @@
 import React from 'react';
-import arrowIcon from '../assets/arrow.png';
 import Telda from '../assets/teldaSS.png';
 import Pepsi from '../assets/PepsiSS.png';
 import Reservation from '../assets/reservationSS.png';
-import { Link } from 'react-scroll';
 
 const projects = [
   {
     title: 'Telda Clone',
     description: 'This project highlights Tailwind CSS for styling and Framer Motion for animations, demonstrating my ability to craft dynamic and visually appealing user interfaces.',
     image: Telda,
-    url: 'https://teldaclone.vercel.app/', // Replace with your actual URL
+    url: 'https://teldaclone.vercel.app/',
   },
   {
     title: 'Pepsi Clone',
     description: 'This project showcases my ability to create a responsive Pepsi clone using React Three Fiber, Tailwind CSS, and Framer Motion for dynamic 3D visuals and smooth animations.',
     image: Pepsi,
-    url: 'https://pepsi3d.vercel.app/', // Replace with your actual URL
+    url: 'https://pepsi3d.vercel.app/',
   },
   {
     title: 'Reservation System',
     description: 'This project features a responsive restaurant table reservation system, utilizing React Redux Toolkit for state management and Tailwind CSS for styling.',
     image: Reservation,
-    url: 'https://reservation-system-one.vercel.app/', // Replace with your actual URL
+    url: 'https://reservation-system-one.vercel.app/',
   },
 ];
 
@@ -48,13 +46,6 @@ const Projects = () => {
           </a>
         ))}
       </div>
-      <Link to="contact" smooth={true} duration={500}>
-        <img
-          src={arrowIcon}
-          alt="Arrow"
-          className="absolute bottom-4 right-4 w-12 h-12 cursor-pointer animate-bounce"
-        />
-      </Link>
     </section>
   );
 };

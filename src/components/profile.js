@@ -3,6 +3,8 @@ import React from 'react';
 import profilePic from '../assets/profile-pic.png';
 import linkedinIcon from '../assets/linkedin.png';
 import githubIcon from '../assets/github.png';
+import Resume from '../assets/HarisHassan_Resume.pdf'
+import { Link } from 'react-scroll';
 
 const Profile = () => {
   return (
@@ -15,12 +17,16 @@ const Profile = () => {
         <h1 className="text-4xl plus-jakarta-sans-primary">Haris Hassan</h1>
         <p className="text-3xl mt-2">Frontend Developer</p>
         <div className="flex justify-center lg:justify-start space-x-4 mt-4">
-          <a href="/resume-example.pdf" download className="px-4 py-2 border rounded-3xl border-black hover:border-gray-400 hover:bg-gray-400 hover:text-white transition">
+          <a href={Resume} download className="px-4 py-2 border rounded-3xl border-black hover:border-gray-400 hover:bg-gray-400 hover:text-white transition">
             Download CV
           </a>
-          <a href="#contact" className="px-4 py-2 bg-black rounded-3xl text-white hover:bg-gray-400 transition">
+          <Link
+          to="contact"
+          smooth={true}
+          duration={900}
+          className="px-4 py-2 bg-black rounded-3xl text-white hover:bg-gray-400 transition">
             Contact Info
-          </a>
+        </Link>
         </div>
         <div className="flex justify-center w-max mx-auto lg:justify-start space-x-4 mt-6">
           <img

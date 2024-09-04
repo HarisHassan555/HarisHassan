@@ -2,9 +2,6 @@ import React from "react";
 import aboutPic from "../assets/about-pic.png";
 import experienceIcon from "../assets/experience.png";
 import educationIcon from "../assets/education.png";
-import arrowIcon from "../assets/arrow.png";
-import { Link } from 'react-scroll';
-
 const About = () => {
   return (
     <section
@@ -64,17 +61,6 @@ const About = () => {
           </div>
         </div>
       </div>
-      <Link
-          to="experience"
-          smooth={true}
-          duration={500}
-          >
-            <img
-        src={arrowIcon}
-        alt="Arrow"
-        className="absolute bottom-4 right-4 w-12 h-12 cursor-pointer animate-bounce"
-      />
-        </Link>
     </section>
   );
 };
