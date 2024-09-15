@@ -25,7 +25,7 @@ const StickyProfileIcon = () => {
       className={`fixed transition-all duration-300 z-50 cursor-pointer ${
         isScrolled
           ? "top-4 left-4 w-24 h-24"
-          : "top-[62%] left-[37%] -translate-x-1/2 -translate-y-1/2 w-64 h-64 lg:w-96 lg:h-96"
+          : "top-[40%] left-1/2 -translate-x-1/2 -translate-y-1/2 w-64 h-64 lg:top-[62%] lg:left-[37%] lg:w-96 lg:h-96"
       }`}
       onClick={handleClick}
     >
