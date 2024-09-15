@@ -12,10 +12,10 @@ const projects = [
     url: 'https://teldaclone.vercel.app/',
   },
   {
-    title: 'Pepsi Clone',
-    description: 'This project showcases my ability to create a responsive Pepsi clone using React Three Fiber, Tailwind CSS, and Framer Motion for dynamic 3D visuals and smooth animations.',
-    image: Pepsi,
-    url: 'https://pepsi3d.vercel.app/',
+    title: 'Survey Summary',
+    description: 'Survey Summary is a responsive tool built with Next.js, Tailwind CSS, and TypeScript, using Firebase and Recoil. It features an AI chatbot that processes Excel files and generates curated reports for seamless data analysis.',
+    image: Surveysummary,
+    url: 'https://surveysummary-alpha.vercel.app/',
   },
   {
     title: 'Reservation System',
@@ -24,10 +24,10 @@ const projects = [
     url: 'https://reservation-system-one.vercel.app/',
   },
   {
-    title: 'Survey Summary',
-    description: 'Survey Summary is a responsive tool built with Next.js, Tailwind CSS, and TypeScript, using Firebase and Recoil. It features an AI chatbot that processes Excel files and generates curated reports for seamless data analysis.',
-    image: Surveysummary,
-    url: 'https://surveysummary-alpha.vercel.app/',
+    title: 'Pepsi Clone',
+    description: 'This project showcases my ability to create a responsive Pepsi clone using React Three Fiber, Tailwind CSS, and Framer Motion for dynamic 3D visuals and smooth animations.',
+    image: Pepsi,
+    url: 'https://pepsi3d.vercel.app/',
   },
 ];
 

@@ -1,6 +1,7 @@
 // src/components/Profile.js
 import React from 'react';
 import profilePic from '../assets/profile-pic.png';
+import profileicon from '../assets/profileicon.svg'
 import linkedinIcon from '../assets/linkedin.png';
 import githubIcon from '../assets/github.png';
 import Resume from '../assets/HarisHassan_Resume.pdf'
@@ -9,8 +10,8 @@ import { Link } from 'react-scroll';
 const Profile = () => {
   return (
     <section id="profile" className="flex flex-col plus-jakarta-sans-secondary lg:flex-row items-center justify-center h-screen p-6">
-      <div className="w-64 h-64 lg:w-96 lg:h-96">
-        <img src={profilePic} alt="Haris Hassan" className="rounded-full object-cover w-full h-full" />
+      <div className="w-64 h-64 lg:w-96 lg:h-96 justify-self-center">
+        {/* <img src={profileicon} alt="Haris Hassan" className=" w-full h-full" /> */}
       </div>
       <div className="mt-6 lg:mt-0 lg:ml-12 text-center lg:text-left">
         <p className="text-xl">Hello, I'm</p>

@@ -8,7 +8,7 @@ const Experience = () => {
     { name: 'JavaScript', level: 'Intermediate' },
     { name: 'Tailwind CSS', level: 'Experienced' },
     { name: 'TypeScript', level: 'Basic' },
-    { name: 'Material UI', level: 'Intermediate' },
+    { name: 'React Router', level: 'Intermediate' },
   ];
 
   const backendSkills = [
