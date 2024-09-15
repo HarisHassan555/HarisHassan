@@ -2,6 +2,7 @@ import React from 'react';
 import Telda from '../assets/teldaSS.png';
 import Pepsi from '../assets/PepsiSS.png';
 import Reservation from '../assets/reservationSS.png';
+import Surveysummary from '../assets/surveysummarySS.png'
 
 const projects = [
   {
@@ -21,6 +22,12 @@ const projects = [
     description: 'This project features a responsive restaurant table reservation system, utilizing React Redux Toolkit for state management and Tailwind CSS for styling.',
     image: Reservation,
     url: 'https://reservation-system-one.vercel.app/',
+  },
+  {
+    title: 'Survey Summary',
+    description: 'Survey Summary is a responsive tool built with Next.js, Tailwind CSS, and TypeScript, using Firebase and Recoil. It features an AI chatbot that processes Excel files and generates curated reports for seamless data analysis.',
+    image: Surveysummary,
+    url: 'https://surveysummary-alpha.vercel.app/',
   },
 ];
 

@@ -3,8 +3,8 @@ import checkmarkIcon from '../assets/checkmark.png';
 
 const Experience = () => {
   const frontendSkills = [
-    { name: 'HTML', level: 'Experienced' },
-    { name: 'CSS', level: 'Experienced' },
+    { name: 'React', level: 'Experienced' },
+    { name: 'Redux', level: 'Experienced' },
     { name: 'JavaScript', level: 'Intermediate' },
     { name: 'Tailwind CSS', level: 'Experienced' },
     { name: 'TypeScript', level: 'Basic' },
@@ -16,6 +16,7 @@ const Experience = () => {
     { name: 'Express JS', level: 'Basic' },
     { name: 'Postman', level: 'Intermediate' },
     { name: 'Mongo DB', level: 'Basic' },
+    { name: 'Firebase' ,level:'Intermediate'},
     { name: 'REST API', level: 'Intermediate' },
 
   ];

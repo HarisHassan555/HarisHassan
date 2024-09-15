@@ -15,7 +15,7 @@ const Profile = () => {
       <div className="mt-6 lg:mt-0 lg:ml-12 text-center lg:text-left">
         <p className="text-xl">Hello, I'm</p>
         <h1 className="text-4xl plus-jakarta-sans-primary">Haris Hassan</h1>
-        <p className="text-3xl mt-2">Frontend Developer</p>
+        <p className="text-3xl mt-2">Web Developer</p>
         <div className="flex justify-center lg:justify-start space-x-4 mt-4">
           <a href={Resume} download className="px-4 py-2 border rounded-3xl border-black hover:border-gray-400 hover:bg-gray-400 hover:text-white transition">
             Download CV
@@ -33,13 +33,13 @@ const Profile = () => {
             src={linkedinIcon}
             alt="LinkedIn"
             className="w-8 h-8 cursor-pointer hover:opacity-50"
-            onClick={() => window.open('https://linkedin.com/', '_blank')}
+            onClick={() => window.open('https://www.linkedin.com/in/haris-hassan-aa1984277/', '_blank')}
           />
           <img
             src={githubIcon}
             alt="GitHub"
             className="w-8 h-8 cursor-pointer hover:opacity-50"
-            onClick={() => window.open('https://github.com/', '_blank')}
+            onClick={() => window.open('https://github.com/HarisHassan555', '_blank')}
           />
         </div>
       </div>
