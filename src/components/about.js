@@ -1,5 +1,4 @@
 import React from "react";
-import aboutPic from "../assets/about-pic.png";
 import profileicon2 from "../assets/profileicon2.svg";
 import experienceIcon from "../assets/experience.png";
 import educationIcon from "../assets/education.png";
@@ -39,9 +38,9 @@ const About = () => {
               />
               <h3 className="text-xl font-semibold">Education</h3>
               <p className="text-center">
-                B.Sc. Bachelor's Degree
-                <br />
-                M.Sc. Master's Degree
+                BSCS. Bachelor's Degree
+                <br/>
+                UMT, lahore
               </p>
             </div>
           </div>

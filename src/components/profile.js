@@ -1,6 +1,5 @@
 // src/components/Profile.js
 import React from 'react';
-import profilePic from '../assets/profile-pic.png';
 import profileicon from '../assets/profileicon.svg'
 import linkedinIcon from '../assets/linkedin.png';
 import githubIcon from '../assets/github.png';
