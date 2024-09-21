@@ -29,7 +29,7 @@ const HamburgerMenu = () => {
         ></div>
       </button>
       {menuOpen && (
-        <ul className="absolute top-20 text-xl right-6 bg-gray-100 flex flex-col space-y-4 p-4 rounded-md">
+        <ul className="absolute top-20 text-xl right-6 bg-gray-100 flex flex-col space-y-4 p-4 rounded-md z-[60]">
           <Link
             to="about"
             smooth={true}
