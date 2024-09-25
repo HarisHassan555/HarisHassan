@@ -2,9 +2,16 @@ import React from 'react';
 import Telda from '../assets/teldaSS.png';
 import Pepsi from '../assets/PepsiSS.png';
 import Reservation from '../assets/reservationSS.png';
-import Surveysummary from '../assets/surveysummarySS.png'
+import Surveysummary from '../assets/surveysummarySS.png';
+import Chatbot from '../assets/chatbotappSS.png'
 
 const projects = [
+  {
+    title: 'Chatbot App',
+    description: 'A sleek and responsive chatbot app built with React.js, Tailwind CSS, and Redux Toolkit, featuring Firebase integration for seamless authentication and real-time chat history storage.',
+    image: Chatbot,
+    url: 'https://chatbotapp-five.vercel.app/',
+  },
   {
     title: 'Telda Clone',
     description: 'This project highlights Tailwind CSS for styling and Framer Motion for animations, demonstrating my ability to craft dynamic and visually appealing user interfaces.',
