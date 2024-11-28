@@ -46,11 +46,11 @@ const About = () => {
           </div>
           <div className="text-justify w-full">
             <p>
-              I’m Haris Hassan, a 22-year-old Frontend Developer passionate
+              I’m Haris Hassan, a 23-year-old Frontend Developer passionate
               about development, specializing in React.js, Tailwind CSS, and
               Bootstrap. While my focus is on frontend, I’m also familiar with
               backend technologies like Firebase. I use React Redux Toolkit for
-              state management and React Router DOM for navigation. I excel at
+              state management and React Router for navigation. I excel at
               transforming design concepts into responsive, high-quality user
               interfaces, balancing functionality with aesthetics, and I'm
               committed to continuous learning and growth in web development.
