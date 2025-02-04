@@ -8,9 +8,11 @@ import Projects from './components/projects';
 import Contact from './components/contact';
 import './App.css';
 import StickyProfileIcon from './components/StickyProfileIcon';
+import { Analytics } from '@vercel/analytics/react';
+
 function App() {
   return (
-    <div>
+    <>
       <StickyProfileIcon />
       <Navbar />
       <HamburgerMenu />
@@ -19,7 +21,8 @@ function App() {
       <Experience />
       <Projects />
       <Contact />
-    </div>
+      <Analytics />
+    </>
   );
 }
 
