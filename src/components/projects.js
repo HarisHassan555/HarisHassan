@@ -4,6 +4,7 @@ import Pepsi from '../assets/PepsiSS.png';
 import Reservation from '../assets/reservationSS.png';
 import Surveysummary from '../assets/surveysummarySS.png';
 import Chatbot from '../assets/chatbotappSS.png'
+import { track } from '@vercel/analytics';
 
 const projects = [
   {
@@ -85,6 +86,10 @@ const Projects = () => {
     };
   }, []);
 
+  const handleProjectClick = (projectTitle) => {
+    track('project_click', { projectName: projectTitle });
+  };
+
   return (
     <section id="projects" className="bg-white text-gray-800 p-8 relative plus-jakarta-sans-secondary">
       <p className="text-center">Discover My</p>
@@ -98,6 +103,7 @@ const Projects = () => {
             <a
               key={index}
               href={project.url}
+              onClick={() => handleProjectClick(project.title)}
               target="_blank"
               rel="noopener noreferrer"
               className="flex-none w-[300px] bg-gray-100 rounded-2xl overflow-hidden shadow-lg transform transition-transform duration-300"
@@ -118,6 +124,7 @@ const Projects = () => {
           <a
             key={index}
             href={project.url}
+            onClick={() => handleProjectClick(project.title)}
             target="_blank"
             rel="noopener noreferrer"
             className="bg-gray-100 rounded-2xl overflow-hidden shadow-lg transform hover:scale-105 transition-transform duration-300"

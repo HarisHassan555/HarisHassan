@@ -21,7 +21,7 @@ function App() {
       <Experience />
       <Projects />
       <Contact />
-      <Analytics />
+      <Analytics debug={false} />
     </>
   );
 }
