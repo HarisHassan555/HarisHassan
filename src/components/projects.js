@@ -4,6 +4,7 @@ import Pepsi from '../assets/PepsiSS.png';
 import Reservation from '../assets/reservationSS.png';
 import Surveysummary from '../assets/surveysummarySS.png';
 import Chatbot from '../assets/chatbotappSS.png'
+import Salon from '../assets/demosalonSS.png'
 import { track } from '@vercel/analytics';
 
 const projects = [
@@ -36,6 +37,12 @@ const projects = [
     description: 'This project showcases my ability to create a responsive Pepsi clone using React Three Fiber, Tailwind CSS, and Framer Motion for dynamic 3D visuals and smooth animations.',
     image: Pepsi,
     url: 'https://pepsi3d.vercel.app/',
+  },
+  {
+    title: 'Luxe Hair Salon',
+    description: 'This project is a salon website with a reservation system, admin panel, and SMS reminders. Built with React JS, Firebase, Tailwind CSS, and Framer Motion, it showcases my ability to create user-friendly, full-stack solutions.',
+    image: Salon,
+    url: 'https://demo-salon.vercel.app/',
   },
 ];
 
